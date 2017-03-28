@@ -2,17 +2,20 @@
 	
 }
 
-.under{
+.under
+{
   position: relative;
   color: white;
   text-decoration: none;
 }
 
-.under:hover{
+.under:hover
+{
   color: #000;
 }
 
-.under:before{
+.under:before
+{
   content: "";
   position: absolute;
   width: 15%;
@@ -27,17 +30,17 @@
   transition: all 0.3s ease-in-out 0s;
 }
 
-.under :hover:before {
+.under :hover:before 
+{
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
 
-.box{
+.box
+{
   position: relative;
   display: inline-block;
-  
-  
   border-radius: 5px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
@@ -45,7 +48,8 @@
   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-.box::after{
+.box::after
+{
   content: "";
   border-radius: 5px;
   position: absolute;
@@ -60,17 +64,20 @@
   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-.box:hover{
+.box:hover
+{
   -webkit-transform: scale(1.25, 1.25);
   transform: scale(1.25, 1.25);
 }
 
-.box:hover::after{
+.box:hover::after
+{
     opacity: 1;
 }
 
 
-.logom{
+.logom
+{
 	position: relative;
 
 
@@ -80,7 +87,8 @@
 
 }
 
-.logomm{
+.logomm
+{
 	position: relative;
 	height: 500px;
 	width: 700px;
