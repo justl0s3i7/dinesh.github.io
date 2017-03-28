@@ -8,11 +8,11 @@
   text-decoration: none;
 }
 
-.under:hover {
+.under:hover{
   color: #000;
 }
 
-.under:before {
+.under:before{
   content: "";
   position: absolute;
   width: 15%;
@@ -27,7 +27,7 @@
   transition: all 0.3s ease-in-out 0s;
 }
 
-.under:hover:before {
+.under:hover:before{
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
